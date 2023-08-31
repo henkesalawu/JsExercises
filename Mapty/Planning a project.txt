@@ -1,0 +1,45 @@
+1. User stories
+- describe app's functionality from user's perspective
+- all user stores describe entire app
+
+as certain user i want to perform this action so i can get certain ebefit - who what and why
+
+ex. as user u want to log my running workours with location, distae time pace and steps per min to keep log of my running
+second user want to log cycling
+see all my workout on map to see where i workout most
+want to see all workout when i leabe app and come back later
+
+
+2. Features
+- make app works as intended
+- to make user stories work as intended
+- to visualise actions that user take and how program react ti tu - put all features into flow hart
+= what we r going to build
+-based on user stories:
+need a map where user can click to add workout
+working with maps - use geolocation to display map at current location os user ( all browsser now supporr geolection )
+form to input data - distance, time ,pace ,steps,= cadance
+lsit all workout
+display workouts on map
+store data somwhere - browser for now
+when usr comae back we load data back
+Put those fetures i flow chart - all features and how they interat
+
+Flow chart:
+-start with events
+1)page loadign event
+- once page load we want t get user location coordinates suing geolocation API
+2) get location
+-when location arrive - render map based on curretn location
+3) map
+4) form to inptu data
+--> yellow part are actuisbmm green part we render tgf on UI, red ops happening asynchornious
+5) display workouts in a list on map when inpt
+6) store dta in browser
+7) read data whenevrr page reloads - store dsta in local sotage - local sotrage api in browser
+
+
+
+3. architecture
+- how to rganize our coe, what js features to use
+-structure
